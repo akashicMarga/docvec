@@ -14,7 +14,7 @@ js-sys = "0.3.65"
 pollster = "0.3.0"
 wasm-bindgen = "0.2.88"
 wasm-bindgen-futures = "0.4.38"
-wonnx = { path = "../wonnx/wonnx" }
+wonnx = { path = "./wonnx/wonnx" }
 tokenizers = { default-features = false, features = [
     "unstable_wasm",
 ], git = "https://github.com/huggingface/tokenizers" }
